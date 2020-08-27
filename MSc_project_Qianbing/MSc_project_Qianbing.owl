@@ -1,0 +1,932 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#"
+     xml:base="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20">
+        <rdfs:comment>This is an Ontology for Mobility as a Service.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasGeographicElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasGeographicElement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasJourney -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasJourney">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasJourneyFactor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasJourneyFactor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMaaSProcess -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMaaSProcess">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMaaSStakeholder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMaaSStakeholder">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMobilityService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMobilityService">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMood">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasPrice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasPrice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasProfile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasProfile">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasRank -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasRank">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasUser -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasUser">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfJourney -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfJourney">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSOperator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSOperator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSProcess -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSProcess">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfRealtimeInfo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfRealtimeInfo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isUsedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isUsedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isValidatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isValidatedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#usesPackage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#usesPackage">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#AdvancedTravellersExperienceService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#AdvancedTravellersExperienceService">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Bike-sharingService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Bike-sharingService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Booking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Booking">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSProcess"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSProcess"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#BusService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#BusService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Calendar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Calendar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Car-sharingService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Car-sharingService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ConnectionPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ConnectionPoint">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfJourney"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Journey"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#StopPoint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#CurrentRoadCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#CurrentRoadCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Real-timeInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Departure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Departure">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfJourney"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Journey"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Destination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Destination">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfJourney"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Journey"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#EnvironmentalCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#EnvironmentalCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Real-timeInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElementWithService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElementWithService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElement"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElementWithoutService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElementWithoutService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElementWithoutService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Journey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Journey">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isValidatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Calendar"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#JourneyFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#JourneyFactor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaS">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMaaSProcess"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSProcess"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMaaSStakeholder"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSStakeholder"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasRank"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Rank"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasUser"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#User"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSApplication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSApplication">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isUsedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSOperator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSOperator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSProcess"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSStakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSStakeholder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityServiceProvider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityServiceProvider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilitySupportiveService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilitySupportiveService">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MonthlyPackage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MonthlyPackage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PackageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Mood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Mood"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MultimodalJourneyPlanner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MultimodalJourneyPlanner">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSOperator"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSOperator"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PackageType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PackageType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Payments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Payments">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSProcess"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSProcess"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Planning">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMaaSProcess"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSProcess"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Profile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#RailService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#RailService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Rank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Rank"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Real-timeInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Real-timeInformation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#SelectedService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#SelectedService"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Smartphones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Smartphones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Smartwatches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Smartwatches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#StopPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#StopPoint">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfJourney"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Journey"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TaxiService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TaxiService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#User">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasMood"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Mood"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasProfile"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Profile"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#hasRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Role"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#usesPackage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PackageType"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#WeeklyPackage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#WeeklyPackage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PackageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#YearlyPackage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#YearlyPackage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PackageType"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Bike-sharing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Bike-sharing">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Bike-sharingService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Car-sharing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Car-sharing">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Car-sharingService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ChargingStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ChargingStation">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilitySupportiveService"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#FuellingStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#FuellingStation">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilitySupportiveService"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Humidity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Humidity">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfRealtimeInfo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Real-timeInformation"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ParkingSpace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ParkingSpace">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilitySupportiveService"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Pressure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Pressure">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfRealtimeInfo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Real-timeInformation"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#WiFi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#WiFi">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#AdvancedTravellersExperienceService"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#isPartOfMobilityService"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilityService"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#AdvancedTravellersExperienceService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MobilitySupportiveService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TransportService"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Calendar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Journey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#JourneyFactor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSStakeholder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Price"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Rank"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ApplicationPlatform"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Calendar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#JourneyFactor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#MaaSStakeholder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Price"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Rank"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Bike-sharingService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#BusService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Car-sharingService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#RailService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#TaxiService"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#ConnectionPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Departure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Destination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#GeographicElement"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#CurrentRoadCondition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#EnvironmentalCondition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#StopPoint"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#PC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Smartphones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pamela/ontologies/2020/7/untitled-ontology-20#Smartwatches"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
